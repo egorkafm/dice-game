@@ -150,5 +150,26 @@ i {
     box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.10);
 }
 
+#dice-1 {
+    top: 120px;
+}
+#dice-2 {
+    top: 250px;
+}
 .winner { background-color: #f7f7f7; }
 .winner .player-name { font-weight: 300; color: #EB4D4D; }
+
+.final-score {
+    color: #555;
+    font-family: "Lato";
+    font-size: 18px;
+    left: 50%;
+    outline: none;
+    text-align: center;
+    text-transform: uppercase;
+    top: 520px;
+    transform: translateX(-50%);
+    padding: 10px;
+    position: absolute;
+    width: 160px;
+}
